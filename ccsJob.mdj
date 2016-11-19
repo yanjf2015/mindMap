@@ -2342,10 +2342,10 @@
 							"containerExtending": false,
 							"left": 396,
 							"top": 824,
-							"width": 284.3671875,
-							"height": 57,
+							"width": 341,
+							"height": 73,
 							"autoResize": false,
-							"text": "input table : CcsAcct\n   账户类型为 A 或 C And 最小还款额>0  ？\noutput table : CcsOrder",
+							"text": "input table : CcsAcct\n   账户类型为 A 或 C And 最小还款额>0\nAnd 非(到期还款日期<=当前批量日期<=宽限日期 )\noutput table : CcsOrder",
 							"wordWrap": true
 						},
 						{
@@ -2370,7 +2370,7 @@
 								"$ref": "AAAAAAFYM+opBaX42Mo="
 							},
 							"lineStyle": 1,
-							"points": "327:843;395:846"
+							"points": "327:844;395:848"
 						},
 						{
 							"_type": "UMLNoteView",
